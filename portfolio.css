@@ -4,14 +4,14 @@
 }
 
 body {
-  background-color: #ddd;
+  background-color: #fdeff2;
   font-size: 14px;
   font-family:uGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif
   ;
 }  
 
 header {
-  background-image: url("bg.jpg");
+  background-image: url("back.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; 
@@ -75,7 +75,7 @@ section h2 {
 
 
 
-.gaiyou img{
+.introduction img{
   max-width:100%;
   height:auto;
   border:none;
@@ -85,16 +85,21 @@ section h2 {
   
 }
 
-.gaiyou a{
+.introduction a{
   display: block;
-  border:dotted 1px #ddd;
+  border:solid 2px #ddd;
   text-decoration: none;
-  color: #999;
+  color: #000000;
 
 }
 
 
-.gaiyou p {
+.introduction h1{
+  margin:0 15px;
+}
+
+
+.introduction p {
   margin-top:0;
   margin-bottom: 20px;
   margin:0 15px;
@@ -106,7 +111,7 @@ footer {
   padding: 20px 0;
   font-size: 93%;
   text-align: center;
-  background-color: #ccc;
+  background-color:#e4d2d8;
   color: #666;
 }
 
